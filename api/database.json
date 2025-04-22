@@ -172,6 +172,42 @@
       "vegetableId": 9,
       "sideId": 6,
       "id": 7
+    },
+    {
+      "entreeId": 3,
+      "vegetableId": 9,
+      "sideId": 3,
+      "id": 8
+    },
+    {
+      "entreeId": 1,
+      "vegetableId": 9,
+      "sideId": 6,
+      "id": 9
+    },
+    {
+      "entreeId": 2,
+      "vegetableId": 9,
+      "sideId": 3,
+      "id": 10
+    },
+    {
+      "entreeId": 7,
+      "vegetableId": 6,
+      "sideId": 6,
+      "id": 11
+    },
+    {
+      "entreeId": 5,
+      "vegetableId": 6,
+      "sideId": 3,
+      "id": 12
+    },
+    {
+      "entreeId": 9,
+      "vegetableId": 9,
+      "sideId": 1,
+      "id": 13
     }
   ]
 }

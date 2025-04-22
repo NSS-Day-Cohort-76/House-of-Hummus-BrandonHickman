@@ -1,5 +1,6 @@
 import { FoodTruck } from "./FoodTruck.js"
 import { placeOrder } from "./TransientState.js"
+import { isOrderComplete } from "./TransientState.js"
 
 const mainContainer = document.querySelector("#container")
 
@@ -15,4 +16,10 @@ document.addEventListener("click", (event) => {
 })
 document.addEventListener("orderPlaced", () => {
     renderAllHTML()
+})
+document.addEventListener("change", () => {
+    const button = document.getElementById("purchase")
+    if (button) {
+        button.disabled = !isOrderComplete()
+    }
 })

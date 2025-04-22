@@ -1,4 +1,3 @@
 export const PlaceOrderButton = () => {
-    const buttonHTML = `<button id="purchase">Purchase Combo</button>`
-    return buttonHTML
+    return `<button id="purchase" disabled>Purchase Combo</button>`
 }

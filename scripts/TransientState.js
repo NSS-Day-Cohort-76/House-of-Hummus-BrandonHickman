@@ -17,7 +17,7 @@ export const setSide = (id) => {
 }
 
 export const getTransientState = () => {
-    return {...TransientState}
+    return { ...transientState }
 }
 
 export const resetTransientState = () => {
@@ -28,7 +28,20 @@ export const resetTransientState = () => {
     }
 }
 
+export const isOrderComplete = () => {
+    return (
+        transientState.entreeId !== null &&
+        transientState.vegetableId !== null &&
+        transientState.sideId !== null
+    )
+}
+
 export const placeOrder = async () => {
+    if (!isOrderComplete()) {
+        window.alert("Please make all selections before placing an order.")
+        return
+    }
+
     const order = {
         entreeId: transientState.entreeId,
         vegetableId: transientState.vegetableId,
