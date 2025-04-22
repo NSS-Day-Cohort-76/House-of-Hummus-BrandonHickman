@@ -18,7 +18,7 @@
 1. All 10 base dishes should be displayed as radio input options.
 1. All 9 vegetables should be displayed as radio input options.
 1. All 6 side dishes should be displayed as radio input options.
-1. All previously purchases meals should be displayed below the meal options. Each purchase should display the primary key and the total cost of the purcahsed meal.
+1. All previously purchased meals should be displayed below the meal options. Each purchase should display the primary key and the total cost of the purchased meal.
 
 ### State Management
 
